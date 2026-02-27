@@ -3,46 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MBA Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        function toggleTheme() {
-            var body = document.body;
-            body.classList.toggle("dark-mode");
-            var theme = body.classList.contains("dark-mode") ? "Light" : "Dark";
-            localStorage.setItem("theme", theme);
-        }
-        window.onload = function() {
-            var theme = localStorage.getItem("theme");
-            if(theme === "Dark") {
-                document.body.classList.toggle("dark-mode");
-            }
-        };
-    </script>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .dark-mode { background: #333; color: #fff; }
-        /* Add additional styling as needed */
-    </style>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Rohan Desai's MBA Portfolio</h1>
-        <button onclick="toggleTheme()">Toggle Light/Dark Mode</button>
-    </header>
-    <main>
-        <h2>My Projects</h2>
-        <embed src="docs/assets/artifacts/Intersession_Five_Assignment-_Wireshark_and_Network_Traffic.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Management_Accounting_-_Intersession_8_-Research_Paper.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Intersession_Eight_Data_Analytics_Final_Project_Report.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Managerial_Economics_Final_Project_Report.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Final_Project_Projection-_Assemble_Your_Dream_Team.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Final_BUS_7200_EMBA_Student_Report_-__Business_Ethics_Simulation.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Week_6_-_Etsy_s_Approach_to_Knowledge_Management.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Draft_Sony_s_Battle_for_Video_Game_Supremacy-_An_Organizational_Behavior_Analysis.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/week7_updated.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Week6_Case_Study4.pdf" width="100%" height="600px" />
-        <embed src="docs/assets/artifacts/Week_8_Final_Assignment_Rohan_Desai.pdf" width="100%" height="600px" />
-    </main>
+    <h1>Your Document Title</h1>
+    <embed src="assets/artifacts/example1.html" width="600" height="400">
+    <embed src="assets/artifacts/example2.html" width="600" height="400">
 </body>
 </html>
