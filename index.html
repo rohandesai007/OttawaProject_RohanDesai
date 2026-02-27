@@ -1,39 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MBA Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Desai — MBA Program Portfolio & Assessment</title>
+  <link rel="stylesheet" href="docs/assets/style.css" />
+  <style>
+    body { max-width: 1100px; margin: 0 auto; padding: 18px; font-family: Arial, sans-serif; }
+    nav ul { list-style: none; padding: 0; display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a { text-decoration: none; font-weight: 600; }
+    header { margin-top: 10px; }
+    section { margin-top: 30px; }
+    .muted { opacity: .85; line-height: 1.5; }
+    .artifact { margin: 18px 0 34px; }
+    iframe { width: 100%; height: 720px; border: 1px solid #ccc; border-radius: 10px; background: #fff; }
+    hr { border: 0; border-top: 1px solid #ddd; margin: 18px 0; }
+    .small { font-size: 0.95rem; }
+    .summary { border: 1px solid #ddd; border-radius: 10px; padding: 14px; margin: 14px 0; }
+    .summary h3 { margin: 0 0 6px; }
+    .summary p { margin: 6px 0; }
+    .tag { display: inline-block; padding: 2px 8px; border: 1px solid #ccc; border-radius: 999px; margin: 3px 6px 0 0; font-size: 0.9rem; }
+  </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/OttawaProject_RohanDesai/index.html">Home</a></li>
-            <li><a href="/OttawaProject_RohanDesai/docs/assets/artifacts/">Artifacts</a></li>
-            <li><a href="/OttawaProject_RohanDesai/#learning-outcomes">Learning Outcomes</a></li>
-            <li><a href="/OttawaProject_RohanDesai/#assessment-essay">Assessment Essay</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#artifact-summaries">Artifact Summaries</a></li>
+      <li><a href="#artifacts">Artifacts (PDFs)</a></li>
+      <li><a href="#learning-outcomes">Learning Outcomes</a></li>
+      <li><a href="#assessment-essay">Assessment Essay</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </nav>
 
-    <h1>Welcome to My MBA Portfolio</h1>
+  <header id="home">
+    <h1>MBA Portfolio – Artifact Summaries</h1>
+    <p class="muted"><b>Rohan Desai</b> | E-MBA, Ottawa University | GPA: 4.000</p>
+    <p class="muted small">
+      Website link to submit in Word doc: <br />
+      <a href="https://rohandesai007.github.io/OttawaProject_RohanDesai/" target="_blank" rel="noopener">
+        https://rohandesai007.github.io/OttawaProject_RohanDesai/
+      </a>
+    </p>
+    <hr />
+    <p class="muted">
+      The following summaries are designed for use on my MBA Portfolio website. Each entry includes the artifact title,
+      course, term, a website-ready description, and the MBA learning outcomes it demonstrates.
+    </p>
+  </header>
 
-    <section id="artifacts">
-        <h2>Artifacts</h2>
-        <p>Description of the artifacts displayed below:</p>
-        <iframe src="/OttawaProject_RohanDesai/docs/assets/artifacts/artifact1.pdf" width="600" height="400">Your browser doesn't support iframes</iframe>
-        <iframe src="/OttawaProject_RohanDesai/docs/assets/artifacts/artifact2.pdf" width="600" height="400">Your browser doesn't support iframes</iframe>
-        <!-- Add more iframes as necessary -->
-    </section>
+  <section id="artifact-summaries">
+    <h2>Artifact Summaries</h2>
 
-    <section id="learning-outcomes">
-        <h2>Learning Outcomes</h2>
-        <p>Details about learning outcomes go here.</p>
-    </section>
+    <div class="summary">
+      <h3>1. Network Traffic Analysis Using Wireshark</h3>
+      <p class="muted"><b>Course:</b> Network Essentials (IT-7003) | <b>Term:</b> Spring 2, 2023-2024 | <b>Instructor:</b> Thomas Determan</p>
+      <p>
+        This hands-on technical assignment explores the Wireshark network analysis tool to capture and dissect live network packets.
+        The paper covers foundational networking concepts including IPv4 vs. IPv6 addressing, MAC addresses, the OSI model, DNS operations,
+        load balancing, and the role of DNS Security Extensions (DNSSEC) in protecting network integrity. A real-world packet capture from
+        www.ford.com is analyzed to illustrate how data travels across the internet. This artifact demonstrates technical proficiency in network
+        infrastructure analysis, a critical competency in IT-driven business environments.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">IT Literacy</span><span class="tag">Technical Analysis</span><span class="tag">Information Systems Understanding</span>
+      </p>
+    </div>
 
-    <section id="assessment-essay">
-        <h2>Assessment Essay</h2>
-        <p>This section is a placeholder for your assessment essay.</p>
-    </section>
+    <div class="summary">
+      <h3>2. Balanced Scorecard Case Analysis for Ragland Department Store</h3>
+      <p class="muted"><b>Course:</b> Management Accounting (BUS-7800) | <b>Term:</b> Summer 1, 2023-2024 | <b>Instructor:</b> Professor Stephen Weiss</p>
+      <p>
+        This collaborative research paper develops a Balanced Scorecard (BSC) framework for a fictional mid-sized retailer, Ragland Department Store,
+        facing competitive pressure from national chains. The team evaluated four BSC perspectives — Financial, Customer, Internal Process, and Learning & Growth —
+        and proposed performance measures aligned with Ragland's strategic goals. The paper also makes the case for BSC adoption to skeptical stakeholders and outlines
+        implementation next steps. This artifact demonstrates competency in strategic performance management, financial analysis, and translating organizational vision into
+        measurable objectives.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Strategic Management</span><span class="tag">Financial Acumen</span><span class="tag">Performance Measurement</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>3. Honda Motor Co. Financial Performance Analysis (2015–2024)</h3>
+      <p class="muted"><b>Course:</b> Data Analytics (IT-8000) | <b>Term:</b> Summer 2, 2023-2024 | <b>Instructor:</b> Professor Nicolas Bowersox</p>
+      <p>
+        This final project delivers a comprehensive analysis of Honda Motor Co.'s financial performance over a decade (2015–2024), examining key metrics including
+        Revenue, Cost of Goods Sold, Gross Profit, Operating Income, Net Income, and Earnings Per Share. The analysis identifies long-term trends, strategic strengths and
+        weaknesses, and evaluates Honda's adaptability through varying economic cycles. Using data analytics techniques, the project translates raw financial data into actionable
+        business insights. This artifact demonstrates proficiency in quantitative analysis, data visualization, and evidence-based strategic evaluation.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Data Analytics</span><span class="tag">Financial Performance Analysis</span><span class="tag">Strategic Insight</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>4. Implementing Dynamic Pricing for Healthcare Billing Software</h3>
+      <p class="muted"><b>Course:</b> Managerial Economics (BUS-7500) | <b>Term:</b> Fall 1, 2024-2025 | <b>Instructor:</b> Professor Joel Light</p>
+      <p>
+        This final project proposes a usage-based dynamic pricing model for healthcare billing software, replacing a flat-rate structure that disadvantages both small clinics and
+        large hospital systems. The model prices services based on patient volume, billing code complexity, and usage frequency. Drawing on economic theory — including demand
+        elasticity and value-based pricing — the paper analyzes the limitations of the current model, presents a dynamic pricing solution, and forecasts its revenue and accessibility
+        impact. This artifact demonstrates the ability to apply managerial economics principles to healthcare technology markets and develop data-driven business strategy.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Economic Analysis</span><span class="tag">Healthcare Industry Knowledge</span><span class="tag">Revenue Strategy</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>5. Assemble Your Dream Team – Cloud Computing Final Project</h3>
+      <p class="muted"><b>Course:</b> Cloud Computing (IT-8003) | <b>Term:</b> Fall 2, 2024-2025 | <b>Instructor:</b> Dr. Cyndi Lambach</p>
+      <p>
+        This final project presents the design of an ideal senior management and cross-functional team for executing a cloud adoption initiative focused on Virtual Desktop
+        Infrastructure (VDI). The report maps each department — IT, Business, Finance, Legal, and Administrative — to the four phases of cloud adoption: Assessment, Planning,
+        Implementation, and Optimization. The project demonstrates strategic thinking in cloud technology governance, resource planning, and enterprise-level change management.
+        It reflects the ability to connect technical infrastructure decisions with business strategy and leadership.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Strategic Planning</span><span class="tag">Technology Leadership</span><span class="tag">Cross-Functional Management</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>6. Business Ethics Simulation – ACME Corporation Performance Reviews</h3>
+      <p class="muted"><b>Course:</b> Value Systems and Professional Ethics (BUS-7200) | <b>Term:</b> Spring 1, 2024-2025 | <b>Instructor:</b> Peter Hertzberg</p>
+      <p>
+        This multi-intersession simulation places students in the role of a career professional at ACME Corporation, navigating ethical and unethical decision points across a simulated
+        career spanning ages 23 to 62. Across eight intersessions, performance review self-assessments reflect on salary goals, promotion outcomes, work-life balance, and the
+        consequences of ethical versus unethical workplace decisions. The simulation reinforces the long-term personal and financial costs of ethical lapses and the value of integrity,
+        transparency, and regulatory compliance. This artifact demonstrates ethical reasoning, reflective practice, and the integration of personal values into professional decision-making.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Ethical Leadership</span><span class="tag">Professional Integrity</span><span class="tag">Reflective Practice</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>7. Etsy's Approach to Knowledge Management</h3>
+      <p class="muted"><b>Course:</b> Management Information Systems (BUS-7700) | <b>Term:</b> Spring 2, 2024-2025 | <b>Instructor:</b> Dr. Amy Tidwell</p>
+      <p>
+        This essay contrasts two organizational models of knowledge management: Canadian Tire's fragmented, analog-dependent franchise network versus Etsy's digitally integrated
+        community intelligence platform. Using frameworks from Nonaka & Takeuchi, Davenport & Beck, and Wenger et al., the paper argues that transitioning to digital Knowledge
+        Management Systems (KMS) is essential for organizational survival in the modern economy. The essay explores how KMS can democratize innovation, reduce cognitive overload,
+        and transform frontline employees into active decision-makers. This artifact demonstrates understanding of information systems strategy, organizational learning, and digital transformation.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Information Systems Strategy</span><span class="tag">Organizational Learning</span><span class="tag">Digital Transformation</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>8. Sony's Battle for Video Game Supremacy: An Organizational Behavior Analysis</h3>
+      <p class="muted"><b>Course:</b> Organizational Behavior – Theory (BUS-7000) | <b>Term:</b> Summer 1, 2024-2025 | <b>Instructor:</b> Professor Jackson</p>
+      <p>
+        This group project examines Sony Interactive Entertainment through the lens of Organizational Behavior theory. The paper identifies three core OB challenges — power struggles
+        between the American and Japanese divisions, interdepartmental conflicts rooted in misaligned incentives, and leadership indecision during innovation cycles. Using frameworks
+        such as French and Raven's Bases of Social Power, Thomas's Conflict Process Theory, Contingency Leadership Theory, and Bolman and Deal's Four-Frame Model, the team
+        developed a SWOT analysis and actionable OB recommendations. This artifact demonstrates mastery in team dynamics, conflict resolution, leadership analysis, and the application
+        of evidence-based management theory.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Leadership & Team Dynamics</span><span class="tag">Critical Thinking</span><span class="tag">Collaborative Problem-Solving</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>9. Implementation of an Outpatient Visit Management System</h3>
+      <p class="muted"><b>Course:</b> Database Architecture & Design (IT-8100) | <b>Term:</b> Summer 2, 2024-2025 | <b>Instructor:</b> Dr. Amy Tidwell</p>
+      <p>
+        This project documents the implementation phase of a relational database system for managing outpatient visits at a healthcare clinic, built on Microsoft Access. The database
+        captures patient information, provider assignments, appointment scheduling, services rendered, and departmental roles. The assignment focuses on DBMS selection rationale,
+        database creation and population, constraint enforcement, and the development of user-facing forms, queries, and reports for clinical staff. This artifact demonstrates proficiency
+        in database design, healthcare data architecture, and translating operational requirements into functional information systems.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Database Architecture</span><span class="tag">Healthcare IT</span><span class="tag">Systems Implementation</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>10. Capital Structure and Shareholder Value: ETI's Recapitalization Strategy</h3>
+      <p class="muted"><b>Course:</b> Managerial Finance (BUS-7600) | <b>Term:</b> Fall 1, 2025-2026 | <b>Instructor:</b> William Hecht</p>
+      <p>
+        This case study evaluates how Electronic Timing, Inc. (ETI) should allocate a $30 million windfall from a product sale. Four capital allocation alternatives are analyzed — a
+        one-time special dividend, debt reduction with operational expansion, a stock repurchase program, and a regular dividend policy — through the lens of corporate finance theory.
+        Each option's implications for shareholder value, financial flexibility, and long-term growth are assessed, with healthcare industry analogies to illustrate cross-sector applicability.
+        This artifact demonstrates financial modeling skills, shareholder value analysis, and the ability to evaluate competing strategic financial decisions.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Corporate Finance</span><span class="tag">Shareholder Value Analysis</span><span class="tag">Strategic Decision-Making</span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h3>11. Smart Inventory Management System Using IoT and Predictive Analytics</h3>
+      <p class="muted"><b>Course:</b> Systems Analytics & Enterprise Management (IT-7000) | <b>Term:</b> Fall 2, 2025-2026 | <b>Instructor:</b> Professor Maria Khater</p>
+      <p>
+        This comprehensive project designs a Smart Inventory Management System that integrates IoT sensors, machine learning demand forecasting, and Microsoft Azure cloud
+        infrastructure to address the $1.75 trillion global problem of inventory distortion. The system fulfills five core requirements: real-time data collection, predictive analytics,
+        a visual monitoring dashboard, secure remote access, and automated notifications. A five-phase, 10–12 week implementation roadmap is provided, along with projected business
+        outcomes including a 30–40% reduction in inventory carrying costs and 95% inventory accuracy. This artifact showcases skills in enterprise systems design, cloud architecture,
+        and data-driven operations management.
+      </p>
+      <p class="muted"><b>MBA Outcomes Demonstrated:</b>
+        <span class="tag">Systems Thinking</span><span class="tag">Enterprise Technology Design</span><span class="tag">Business Impact Analysis</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="artifacts">
+    <h2>Artifacts (PDFs)</h2>
+    <p class="muted">Embedded PDFs from <code>docs/assets/artifacts</code>.</p>
+
+    <div class="artifact">
+      <h3>Sony’s Battle for Video Game Supremacy — Organizational Behavior Analysis</h3>
+      <iframe src="docs/assets/artifacts/Draft_Sony_s_Battle_for_Video_Game_Supremacy-_An_Organizational_Behavior_Analysis.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Draft_Sony_s_Battle_for_Video_Game_Supremacy-_An_Organizational_Behavior_Analysis.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>BUS 7200 EMBA — Business Ethics Simulation</h3>
+      <iframe src="docs/assets/artifacts/Final_BUS_7200_EMBA_Student_Report_-__Business_Ethics_Simulation.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Final_BUS_7200_EMBA_Student_Report_-__Business_Ethics_Simulation.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Final Project Projection — Assemble Your Dream Team</h3>
+      <iframe src="docs/assets/artifacts/Final_Project_Projection-_Assemble_Your_Dream_Team.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Final_Project_Projection-_Assemble_Your_Dream_Team.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Data Analytics — Final Project Report</h3>
+      <iframe src="docs/assets/artifacts/Intersession_Eight_Data_Analytics_Final_Project_Report.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Intersession_Eight_Data_Analytics_Final_Project_Report.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Wireshark and Network Traffic</h3>
+      <iframe src="docs/assets/artifacts/Intersession_Five_Assignment-_Wireshark_and_Network_Traffic.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Intersession_Five_Assignment-_Wireshark_and_Network_Traffic.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Management Accounting — Research Paper</h3>
+      <iframe src="docs/assets/artifacts/Management_Accounting_-_Intersession_8_-Research_Paper.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Management_Accounting_-_Intersession_8_-Research_Paper.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Managerial Economics — Final Project Report</h3>
+      <iframe src="docs/assets/artifacts/Managerial_Economics_Final_Project_Report.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Managerial_Economics_Final_Project_Report.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Week 6 — Case Study 4</h3>
+      <iframe src="docs/assets/artifacts/Week6_Case_Study4.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Week6_Case_Study4.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Week 6 — Etsy’s Approach to Knowledge Management</h3>
+      <iframe src="docs/assets/artifacts/Week_6_-_Etsy_s_Approach_to_Knowledge_Management.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Week_6_-_Etsy_s_Approach_to_Knowledge_Management.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Week 8 — Final Assignment</h3>
+      <iframe src="docs/assets/artifacts/Week_8_Final_Assignment_Rohan_Desai.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/Week_8_Final_Assignment_Rohan_Desai.pdf">Open PDF in new tab</a></p>
+    </div>
+
+    <div class="artifact">
+      <h3>Week 7 (Updated)</h3>
+      <iframe src="docs/assets/artifacts/week7_updated.pdf"></iframe>
+      <p><a target="_blank" rel="noopener" href="docs/assets/artifacts/week7_updated.pdf">Open PDF in new tab</a></p>
+    </div>
+  </section>
+
+  <section id="learning-outcomes">
+    <h2>Learning Outcomes (Self-Assessment 1–5)</h2>
+    <p class="muted">Paste your official learning outcomes and add scores/rationale here.</p>
+  </section>
+
+  <section id="assessment-essay">
+    <h2>Assessment Essay</h2>
+    <p class="muted">Paste your assessment essay here (or link to the Word document you submit).</p>
+  </section>
+
+  <section id="references">
+    <h2>References (APA)</h2>
+    <ul>
+      <li class="muted">[Add APA references here if used]</li>
+    </ul>
+  </section>
 </body>
 </html>
